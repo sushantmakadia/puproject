@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/gradient1"
+        >
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundcorner"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Add User" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:background="@drawable/roundcorner"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:text="Create Batches" />
+
+    </LinearLayout>
+</LinearLayout>
